@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tianbao/CLionProjects/Vector/Priority_Queue.h
+vector
+-
+iostream
+-
+algorithm
+-
+
+/home/tianbao/CLionProjects/Vector/Vector.h
+cstddef
+-
+algorithm
+-
+cstdlib
+-
+Priority_Queue.h
+/home/tianbao/CLionProjects/Vector/Priority_Queue.h
+
+/home/tianbao/CLionProjects/Vector/main.cpp
+iostream
+-
+Vector.h
+/home/tianbao/CLionProjects/Vector/Vector.h
+

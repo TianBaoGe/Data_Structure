@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tianbao/CLionProjects/List/Function.cpp
+
+/home/tianbao/CLionProjects/List/Function.h
+Student.h
+/home/tianbao/CLionProjects/List/Student.h
+List.h
+/home/tianbao/CLionProjects/List/List.h
+iostream
+-
+fstream
+-
+
+/home/tianbao/CLionProjects/List/List.cpp
+List.h
+/home/tianbao/CLionProjects/List/List.h
+
+/home/tianbao/CLionProjects/List/List.h
+ListNode.h
+/home/tianbao/CLionProjects/List/ListNode.h
+
+/home/tianbao/CLionProjects/List/ListNode.cpp
+ListNode.h
+/home/tianbao/CLionProjects/List/ListNode.h
+
+/home/tianbao/CLionProjects/List/ListNode.h
+
+/home/tianbao/CLionProjects/List/Main.cpp
+Function.h
+/home/tianbao/CLionProjects/List/Function.h
+
+/home/tianbao/CLionProjects/List/Student.h
+string
+-
+

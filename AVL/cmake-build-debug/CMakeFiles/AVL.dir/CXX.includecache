@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tianbao/CLionProjects/AVL/AVL.h
+BinNode.h
+/home/tianbao/CLionProjects/AVL/BinNode.h
+algorithm
+-
+stack
+-
+iostream
+-
+
+/home/tianbao/CLionProjects/AVL/BinNode.h
+cstdlib
+-
+queue
+-
+
+/home/tianbao/CLionProjects/AVL/Main.cpp
+AVL.h
+/home/tianbao/CLionProjects/AVL/AVL.h
+

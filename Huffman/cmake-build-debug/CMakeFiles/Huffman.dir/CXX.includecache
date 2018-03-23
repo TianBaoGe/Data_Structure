@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tianbao/CLionProjects/Huffman/BinNode.h
+cstdlib
+-
+queue
+-
+
+/home/tianbao/CLionProjects/Huffman/BinTree.h
+BinNode.h
+/home/tianbao/CLionProjects/Huffman/BinNode.h
+algorithm
+-
+stack
+-
+iostream
+-
+
+/home/tianbao/CLionProjects/Huffman/HuffChar.h
+
+/home/tianbao/CLionProjects/Huffman/main.cpp
+bitset
+-
+queue
+-
+BinTree.h
+/home/tianbao/CLionProjects/Huffman/BinTree.h
+HuffChar.h
+/home/tianbao/CLionProjects/Huffman/HuffChar.h
+map
+-
+fstream
+-
+cassert
+-
+sstream
+-
+

@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/List.dir/Main.cpp.o CMakeFiles/List.dir/ListNode.cpp.o CMakeFiles/List.dir/List.cpp.o CMakeFiles/List.dir/Function.cpp.o  -o List 
