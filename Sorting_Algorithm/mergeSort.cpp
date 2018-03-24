@@ -1,5 +1,3 @@
-#include<iostream>
-using namespace std;
 void mergeArray(int* a,int first,int mid,int last,int* temp){
 
     int i = first,j = mid+1;
@@ -30,12 +28,4 @@ void mergeSort(int* a,int n){
     int* temp = new int[n];
     mergeSort(a,0,n-1,temp);
     delete[] temp;
-}
-
-int main(){
-    int a[] = {10,9,8,7,6,5,4,3,2,1};
-    mergeSort(a,10);
-    for(int e:a) cout << e << " ";
-    cout << endl;
-    return 0;
 }
